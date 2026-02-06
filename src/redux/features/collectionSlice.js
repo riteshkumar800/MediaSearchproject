@@ -29,9 +29,11 @@ const collectionSlice=createSlice({
 
         },
         clearCollection: (state)=>{
+            // state.items=[]
             state.items=[]
+
             localStorage.removeItem('collection')
-            
+
         }
     }
 
